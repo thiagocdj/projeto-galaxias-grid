@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    background: #121214;
+    display: grid;
+    justify-content: center;
+    padding: 72px 122px 114px 100px;
+    height: 100vh;
+}
+
+header h1 {
+    color: #02799D;
+    font-size: 58px;
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+
+header h2 {
+    color: #E1E1E6;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 63px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 366px);
+    row-gap: 44px;
+    column-gap: 60px;
+    
+}   
+
+.card {
+    background: #202024;
+    border: 2px solid #323238;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card h2 {
+    color: #E1E1E6;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 24px 32px 0;
+}
+
+.card p {
+    color: #C4C4CC;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 24px 32px;
+}
+
+
+
